@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '1.9.3'
 
 gem 'rails', '4.1.1'
 gem 'bootstrap-sass', '2.3.2.0'
@@ -16,10 +17,10 @@ group :development, :test do
   gem 'rspec-rails', '2.13.1'
 
   # The following optional lines are part of the advanced setup.
-  gem 'guard-rspec', '2.5.0'
-  gem 'spork-rails', '4.0.0'
-  gem 'guard-spork', '1.5.0'
-  gem 'childprocess', '0.5.5'
+  gem 'guard-rspec'
+  gem 'spork-rails'
+  gem 'guard-spork'
+  gem 'childprocess'
   
   # Wanted by RSpec
   gem 'minitest'
